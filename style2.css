@@ -1,0 +1,28 @@
+body{
+	background-image:url("background.jpg");
+	background-size: cover;
+}
+h2{
+	color:#343477;
+	text-align: center;
+	border:5px solid #CC89AF;
+	cursor :pointer;
+}
+p{
+	color:#AA5F39;
+	/*text-decoration:underline;
+     text-decoration: line-through;
+	 text-transform:uppercase;*/
+	 line-height:50px;
+	 font-size:22px;
+	 
+	 
+}
+li{
+	list-style:none;
+	display:inline-block;
+}
+#div1{
+	border:5px dashed  #9900CC;
+	background: #FFCCFF;
+}

@@ -1,0 +1,58 @@
+body{
+	background-color:#FFAAAA;
+}
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   width: 80%;
+}
+h1 {
+	font-family: 'Old Standard TT', serif;	
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+.btn-primary{
+    background-color: #F05F44;
+    border-color: #F05F44;
+}
+
+
+/*-----------Gallery--------*/
+#gallery{
+	padding-top:100px ;
+}
+#gallery img {
+    width: 400px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+.flex-container {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  
+}
+
+.image-list {
+  padding: 8%;
+  flex-grow: 9;
+  flex-basis: 80%;
+  display: flex
+}
+/*-------About Us-------*/
+.left-para{
+	padding-left:410px;
+	padding-top:100px;
+}	
+	
